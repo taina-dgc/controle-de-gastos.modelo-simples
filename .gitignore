@@ -1,0 +1,10 @@
+privado/
+meus_dados*.json
+dados/*.json
+!dados/exemplo.json
+*.xlsx
+!modelo/*.xlsx
+~$*.xlsx
+__pycache__/
+*.pyc
+.venv/
