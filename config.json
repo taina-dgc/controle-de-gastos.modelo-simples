@@ -1,0 +1,12 @@
+{
+  "cartao": {
+    "dia_vencimento": 6,
+    "dias_entre_fechamento_e_vencimento": 7
+  },
+  "meses_na_tabela": 15,
+  "linhas_de_contas": 40,
+  "linhas_de_gastos": 200,
+  "formas_contas": ["Cartão", "Pix", "Boleto", "Caixinha"],
+  "formas_gastos": ["Cartão", "Débito", "Pix", "Dinheiro"],
+  "categorias_gastos": ["Mercado", "Uber / transporte", "Delivery / restaurante", "Lazer", "Beleza / cuidados", "Saúde / farmácia", "Compras", "Presentes", "Outros"]
+}

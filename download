@@ -1,0 +1,15 @@
+# ---- NUNCA subir dados pessoais ----
+privado/
+meus_dados*.json
+dados/*.json
+!dados/exemplo.json
+
+# planilhas geradas (só o modelo de exemplo vai para o GitHub)
+*.xlsx
+!modelo/*.xlsx
+~$*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.venv/

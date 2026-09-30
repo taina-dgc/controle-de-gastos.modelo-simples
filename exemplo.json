@@ -1,0 +1,26 @@
+{
+  "_aviso": "DADOS FICTÍCIOS de exemplo. Para usar com os seus, copie este arquivo para uma pasta privada e troque os valores.",
+  "salario": 3000.00,
+  "primeiro_mes_da_tabela": "2026-10",
+  "contas": [
+    {"gasto": "Aluguel",                 "a_quem": "Proprietário",  "forma": "Pix",      "valor_total": 900.00,  "parcelas": null, "primeiro_mes": "2026-10"},
+    {"gasto": "Streaming de música",     "a_quem": "Streaming",     "forma": "Cartão",   "valor_total": 21.90,   "parcelas": null, "primeiro_mes": "2026-10"},
+    {"gasto": "Academia",                "a_quem": "Academia",      "forma": "Cartão",   "valor_total": 99.90,   "parcelas": null, "primeiro_mes": "2026-10"},
+    {"gasto": "Celular novo",            "a_quem": "Loja X",        "forma": "Cartão",   "valor_total": 1800.00, "parcelas": 12,   "primeiro_mes": "2026-06"},
+    {"gasto": "Curso online",            "a_quem": "Escola Y",      "forma": "Cartão",   "valor_total": 600.00,  "parcelas": 6,    "primeiro_mes": "2026-08"},
+    {"gasto": "Roupas",                  "a_quem": "Loja Z",        "forma": "Cartão",   "valor_total": 300.00,  "parcelas": 3,    "primeiro_mes": "2026-10"},
+    {"gasto": "Empréstimo de um amigo",  "a_quem": "Amigo",         "forma": "Pix",      "valor_total": 400.00,  "parcelas": 4,    "primeiro_mes": "2026-10"},
+    {"gasto": "Viagem de fim de ano",    "a_quem": "Caixinha",      "forma": "Caixinha", "valor_total": 600.00,  "parcelas": 3,    "primeiro_mes": "2026-10"}
+  ],
+  "gastos_do_mes": {
+    "mes": "2026-10",
+    "limite_do_mes": 800.00,
+    "limites_por_semana": [180, 180, 180, 180],
+    "gastos": [
+      {"data": "2026-10-02", "descricao": "Mercado da semana", "categoria": "Mercado",                "pago_com": "Cartão", "valor": 120.50},
+      {"data": "2026-10-03", "descricao": "Uber",              "categoria": "Uber / transporte",      "pago_com": "Cartão", "valor": 18.90},
+      {"data": "2026-10-05", "descricao": "Almoço",            "categoria": "Delivery / restaurante", "pago_com": "Débito", "valor": 35.00},
+      {"data": "2026-10-09", "descricao": "Farmácia",          "categoria": "Saúde / farmácia",       "pago_com": "Pix",    "valor": 27.80}
+    ]
+  }
+}
